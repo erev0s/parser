@@ -10,7 +10,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/asm-6.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/asm-all-5.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
