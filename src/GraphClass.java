@@ -8,9 +8,7 @@ public class GraphClass extends ClassVisitor {
     }
 
     public MethodVisitor visitMethod(int access, String name, String desc, String signature, String[] exceptions) {
-        System.out.print("\n");
-        System.out.print(name);
-        GraphMethod newVisitor = new GraphMethod();
+        GraphMethod newVisitor = new GraphMethod(name);
         return newVisitor;
         //return super.visitMethod(access, name, desc, signature,exceptions);
     }
