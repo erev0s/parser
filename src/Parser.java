@@ -18,7 +18,7 @@ import java.util.List;
 public class Parser {
 
     public static void main(String[] args) throws Exception{
-        InputStream in = new FileInputStream("C:\\\\Users\\\\erev\\\\IdeaProjects\\\\Test.class");
+        InputStream in = new FileInputStream("/home/er/Documents/parser/out/production/parser/Test.class");
         ClassReader reader = new ClassReader(in);
         ClassNode classNode = new ClassNode();
         reader.accept(classNode,0);
